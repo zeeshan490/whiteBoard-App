@@ -47,3 +47,44 @@
 #canvas{
    
 }
+
+.sticky {
+    position: absolute;
+    top: 300px;
+    left: 480px;
+    height: 250px;
+    width: 300px;
+    
+}
+
+.sticky-header {
+    height: 15%;
+    background: lightcyan;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sticky-header div {
+    height: 80%;
+    width: 8%;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.minimize {
+    background: lightgreen;
+}
+
+.close {
+    background: lightcoral;
+}
+
+.sticky-content {
+    height: 85%;
+    border-bottom-left-radius: 30px;
+    background: lightsalmon;
+    outline: none;
+    padding: 10px;
+    font-size: 25px;
+}
